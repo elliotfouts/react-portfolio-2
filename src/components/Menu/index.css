@@ -1,0 +1,48 @@
+.menu-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu-title {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  color: grey;
+  position: relative;
+  cursor: pointer;
+  transition: all 300ms;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: black;
+}
+
+.menu-link.resume {
+  margin-bottom: 2rem;
+}
+
+/* .menu-link::after {
+  content: '';
+  height: 1px;
+  width: 0%;
+  position: absolute;
+  background: grey;
+  top: 100%;
+  left: 0;
+  transition: width 300ms ease-in;
+}
+
+.menu-link:hover::after {
+  width: 100%;
+} */
