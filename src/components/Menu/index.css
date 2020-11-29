@@ -6,6 +6,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  opacity: 0;
+  transition: all 300ms;
+}
+
+.menu-container.visible {
+  opacity: 1;
 }
 
 .menu-title {
