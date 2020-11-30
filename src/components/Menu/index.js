@@ -17,7 +17,7 @@ export default function Menu(props) {
 
   return (
     <div className={`menu-container ${isVisible && "visible"}`}>
-      <a onClick={handleResumeClick} className="menu-link resume">Resume</a>
+      {/* <a onClick={handleResumeClick} className="menu-link resume">Resume</a> */}
       
       <a href="https://www.linkedin.com/in/elliotfouts/" rel="noreferrer" target="_blank" className="menu-link">Linkedin</a>
       <a href="https://github.com/elliotfouts" rel="noreferrer" target="_blank" className="menu-link">Github</a>
